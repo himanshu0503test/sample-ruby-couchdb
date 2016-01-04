@@ -1,6 +1,11 @@
 language: ruby
+build_image: drydock/u14ruball:tip
 rvm:
   - 1.9.3
+  - 2.0.0
+  - 2.1.5
+  - 2.2.1
+  
 env:
   - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
 
